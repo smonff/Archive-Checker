@@ -1,6 +1,6 @@
 # READ ME 
 ## INTRO
-Check a tar.gz archive for conformity                                                                                    
+Check a tar.gz archive for conformity without extract it                                                                                    
 Idea from http://stackoverflow.com/questions/2001709/how-to-check-if-a-unix-tar-gz-file-is-a-valid-file-without-uncompressing
 
 ## USAGE
