@@ -7,3 +7,5 @@ Idea from http://stackoverflow.com/questions/2001709/how-to-check-if-a-unix-tar-
 - Argument $1 is the path of the file                                                                                      
 - -0 extact to stdout
 
+## TODO
+- Allow many arguments with @ (better than $1)
