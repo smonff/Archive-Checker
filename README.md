@@ -8,4 +8,4 @@ Idea from http://stackoverflow.com/questions/2001709/how-to-check-if-a-unix-tar-
 - -0 extact to stdout
 
 ## TODO
-- Allow many arguments with @ (better than $1)
+- Allow many arguments with $@ ou $* into  foreach (better than $1)
