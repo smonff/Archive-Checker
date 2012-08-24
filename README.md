@@ -11,7 +11,7 @@ Original idea from http://stackoverflow.com/questions/2001709/how-to-check-if-a-
 - use an alias in your path like `checkar`
 - Pass at least one argument.
 - You can pass as many arguments as you want.
-- It was not suppoded to be a feature first but you can use a wildcard (*) if you want to check all the archives into the current directory, e.g. `checkar *.tar.gz
+- It was not suppoded to be a feature first but you can use a wildcard (*) if you want to check all the archives into the current directory, e.g. `checkar *.tar.gz`
 
 ## TODO
 - Warn if no argument is pass
