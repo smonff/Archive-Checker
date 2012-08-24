@@ -9,6 +9,7 @@
 # TODO: check if there is some arguments passed
 
 checked_files=0
+checke_ok=0
 
 for arg in "$@"
 
@@ -20,12 +21,16 @@ do
 
     # Argument $1 is the path of the file
     # -0 extract to stdout
+    # TODO 
+    # We should test what return this command
+    # Increment $check_ok only if the archive is ok
     tar -xvzf $file -O > /dev/null
     
     echo "Check OK for $arg"
-    # Stange incrementation way (I <3 Perl)
+    # Strange incrementation way (I <3 Perl)
     checked_files=`expr $checked_files + 1`
     
 done
 
-echo "$checked_files files checked OK."
+# TODO
+echo "?/$checked_files are OK."
