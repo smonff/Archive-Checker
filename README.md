@@ -1,7 +1,8 @@
 # READ ME 
 ## INTRO
 Check a tar.gz archive for conformity without extract it                                                     
-I was too much bored of typing a lot of 'tar -xzvf $file -0 > /dev/null' to check some important stuff very often when I compress data into archives. As I'm effraid that anything goes wrong with my data, I most of the time check it before I delete original files.
+
+As I'm effraid that anything goes wrong with my data, I most of the time check it before I delete original files.I was too much bored of typing a lot of `tar -xzvf $file -0 > /dev/null` to check some important stuff very often when I compress data into archives.
 
 That's why I start this small script.                                                         
                                
